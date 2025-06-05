@@ -18,4 +18,4 @@ PowerShell script to automate Azure AD Enterprise App role assignments using Mic
 2. **Update the script** with your `$appId`.
 3. **Run the script**: | If you continue to have issues, try: Running with application permissions (Connect-MgGraph -Scopes "Application.ReadWrite.All")
    ```powershell
-   .\Assign-AppRoles.ps1
+   .\Bulk-Assign-AppRole.ps1
